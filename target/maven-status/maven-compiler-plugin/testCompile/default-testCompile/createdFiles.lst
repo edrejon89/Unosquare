@@ -1,0 +1,6 @@
+test/HomeTest.class
+pageobjects/VSProfessionalPage.class
+base/BaseTest.class
+pageobjects/CartPage.class
+pageobjects/HomePage.class
+pageobjects/WindowsPage.class

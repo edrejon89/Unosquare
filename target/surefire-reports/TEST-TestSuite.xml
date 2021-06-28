@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="20.155" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="/Users/Rejon/IdeaProjects/Unosquare/bin/chromedriver"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/Rejon/IdeaProjects/Unosquare/target/test-classes:/Users/Rejon/IdeaProjects/Unosquare/target/classes:/Users/Rejon/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/Rejon/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/Rejon/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/Rejon/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/Rejon/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/Rejon/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/Rejon/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/Rejon/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/Rejon/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/Rejon/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/Rejon/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/Rejon/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/Rejon/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/Rejon/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/Rejon/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/Rejon/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/Rejon/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/Rejon/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/Rejon/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/Rejon/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/Rejon/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/Rejon/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/Rejon/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/Rejon/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="user.timezone" value="America/Mexico_City"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="419"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/Rejon/IdeaProjects/Unosquare/target/surefire/surefirebooter7240758887865649907.jar /Users/Rejon/IdeaProjects/Unosquare/target/surefire 2021-06-28T12-44-18_865-jvmRun1 surefire6873177127038892483tmp surefire_014187052417832069071tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/Rejon/IdeaProjects/Unosquare/target/test-classes:/Users/Rejon/IdeaProjects/Unosquare/target/classes:/Users/Rejon/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/Rejon/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/Rejon/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/Rejon/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/Rejon/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/Rejon/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/Rejon/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/Rejon/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/Rejon/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/Rejon/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/Rejon/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/Rejon/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/Rejon/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/Rejon/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/Rejon/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/Rejon/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/Rejon/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/Rejon/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/Rejon/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/Rejon/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/Rejon/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/Rejon/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/Rejon/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/Rejon/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/Rejon"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/Rejon/IdeaProjects/Unosquare"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/Rejon/IdeaProjects/Unosquare/target/surefire/surefirebooter7240758887865649907.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.10+9"/>
+    <property name="user.name" value="Rejon"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="US-ASCII"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK"/>
+    <property name="localRepository" value="/Users/Rejon/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/b6/ph_dzdmj319dzt99x9f3zt9m0000gp/T/"/>
+    <property name="java.version" value="11.0.10"/>
+    <property name="user.dir" value="/Users/Rejon/IdeaProjects/Unosquare"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/Rejon/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vm.version" value="11.0.10+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="microsoftTest" classname="test.HomeTest" time="2.444">
+    <system-out><![CDATA[0 [main] INFO test.HomeTest  - All elements in nav are visible
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 21132
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+jun. 28, 2021 12:44:22 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACI?N: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="microsoftTest2" classname="test.HomeTest" time="7.457">
+    <system-out><![CDATA[How to get Windows 10
+Buy Windows 10 Home
+Buy Windows 10 Pro
+Remote resources & tips
+Windows 7 end of support
+Windows 10 features
+Sync phones to computer
+Windows security
+Compare Windows 10 editions
+Specifications & requirements
+Product 1 price: $1,199.00
+Product 2 price: $5,999.00
+Product 3 price: $2,169.00
+7459 [main] INFO test.HomeTest  - Prices were printed
+]]></system-out>
+  </testcase>
+  <testcase name="microsoftTest3" classname="test.HomeTest" time="3.073">
+    <system-out><![CDATA[Price: 1199.0
+Casted Price 1199.0
+resutlPrice 1199.0
+Price on product page: 1199.0
+]]></system-out>
+  </testcase>
+  <testcase name="microsoftTest4" classname="test.HomeTest" time="3.278"/>
+  <testcase name="microsoftTest5" classname="test.HomeTest" time="0.142"/>
+</testsuite>

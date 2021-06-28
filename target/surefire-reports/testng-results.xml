@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-28T12:44:19 CDT" name="Surefire suite" finished-at="2021-06-28T12:44:39 CDT" duration-ms="19671">
+    <groups>
+    </groups>
+    <test started-at="2021-06-28T12:44:19 CDT" name="Surefire test" finished-at="2021-06-28T12:44:39 CDT" duration-ms="19671">
+      <class name="test.HomeTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.HomeTest@74235045]" started-at="2021-06-28T12:44:19 CDT" name="setUp" finished-at="2021-06-28T12:44:22 CDT" duration-ms="3071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="microsoftTest()[pri:0, instance:test.HomeTest@74235045]" started-at="2021-06-28T12:44:22 CDT" name="microsoftTest" finished-at="2021-06-28T12:44:25 CDT" duration-ms="2457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- microsoftTest -->
+        <test-method signature="microsoftTest2()[pri:1, instance:test.HomeTest@74235045]" started-at="2021-06-28T12:44:25 CDT" name="microsoftTest2" finished-at="2021-06-28T12:44:32 CDT" duration-ms="7456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- microsoftTest2 -->
+        <test-method signature="microsoftTest3()[pri:2, instance:test.HomeTest@74235045]" started-at="2021-06-28T12:44:32 CDT" name="microsoftTest3" finished-at="2021-06-28T12:44:35 CDT" duration-ms="3074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- microsoftTest3 -->
+        <test-method signature="microsoftTest4()[pri:3, instance:test.HomeTest@74235045]" started-at="2021-06-28T12:44:35 CDT" name="microsoftTest4" finished-at="2021-06-28T12:44:39 CDT" duration-ms="3279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- microsoftTest4 -->
+        <test-method signature="microsoftTest5()[pri:4, instance:test.HomeTest@74235045]" started-at="2021-06-28T12:44:39 CDT" name="microsoftTest5" finished-at="2021-06-28T12:44:39 CDT" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- microsoftTest5 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.HomeTest@74235045]" started-at="2021-06-28T12:44:39 CDT" name="tearDown" finished-at="2021-06-28T12:44:39 CDT" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.HomeTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
